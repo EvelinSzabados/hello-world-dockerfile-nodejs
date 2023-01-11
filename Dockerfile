@@ -1,7 +1,7 @@
 FROM node:18
 
 WORKDIR /opt/app
-EXPOSE 8081
+EXPOSE 0008081
 ENV NODE_ENV production
 
 COPY . .
